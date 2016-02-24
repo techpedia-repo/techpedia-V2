@@ -75,7 +75,7 @@ import com.techpedia.usermanagement.service.exception.UserManagementServiceExcep
 import com.techpedia.usermanagement.service.response.UMServiceResponse;
 
 //import com.techpedia.usermanagement.dataobject.ProfileSearchCriteriaDO;
-
+ //test git hub Working
 @Service
 public class UserManagementRestServiceHelper {
 
@@ -83,7 +83,7 @@ public class UserManagementRestServiceHelper {
 	@Qualifier("userManagementDAO")
 	UserManagementDAO userManagementDAO;
 	
-	private static Logger log = LoggerFactory.getLogger(UserManagementRestServiceHelper.class.getName());
+	private static final    Logger log = LoggerFactory.getLogger(UserManagementRestServiceHelper.class.getName());
 
 	static UserManagementDAO userMgmtDao = null;
 	static UMServiceResponse response = null;
