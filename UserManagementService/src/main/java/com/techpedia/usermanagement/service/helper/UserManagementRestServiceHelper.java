@@ -75,7 +75,7 @@ import com.techpedia.usermanagement.service.exception.UserManagementServiceExcep
 import com.techpedia.usermanagement.service.response.UMServiceResponse;
 
 //import com.techpedia.usermanagement.dataobject.ProfileSearchCriteriaDO;
- //test git hub
+ //test git hub Working
 @Service
 public class UserManagementRestServiceHelper {
 
