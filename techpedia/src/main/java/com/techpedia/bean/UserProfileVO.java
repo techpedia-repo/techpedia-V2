@@ -112,6 +112,7 @@ public class UserProfileVO {
 	private String photo;
 	private String imgName;
 	private String imgByteArray;
+	private String photoPath;
 
 	// USR_MNGT_STUDENT
 	private String degreeOfStudent;
@@ -1239,10 +1240,11 @@ public class UserProfileVO {
 				+ ", state=" + state + ", district=" + district + ", mobile="
 				+ mobile + ", homePhoneNo=" + homePhoneNo + ", photo=" + photo
 				+ ", imgName=" + imgName + ", imgByteArray=" + imgByteArray
-				+ ", degreeOfStudent=" + degreeOfStudent + ", collge=" + collge
-				+ ", studentID=" + studentID + ", completionYear="
-				+ completionYear + ", university=" + university
-				+ ", degreeOfMentor=" + degreeOfMentor
+				+ ", photoPath=" + photoPath + ", degreeOfStudent="
+				+ degreeOfStudent + ", collge=" + collge + ", studentID="
+				+ studentID + ", completionYear=" + completionYear
+				+ ", university=" + university + ", collegeState="
+				+ collegeState + ", degreeOfMentor=" + degreeOfMentor
 				+ ", designationOfMentor=" + designationOfMentor
 				+ ", specializationOfMentor=" + specializationOfMentor
 				+ ", institutionalAssctnInfo=" + institutionalAssctnInfo
@@ -1310,6 +1312,14 @@ public class UserProfileVO {
 	 */
 	public void setImgByteArray(String imgByteArray) {
 		this.imgByteArray = imgByteArray;
+	}
+
+	public String getPhotoPath() {
+		return photoPath;
+	}
+
+	public void setPhotoPath(String photoPath) {
+		this.photoPath = photoPath;
 	}
 
 }
