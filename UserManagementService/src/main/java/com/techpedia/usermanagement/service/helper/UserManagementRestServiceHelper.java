@@ -77,6 +77,7 @@ import com.techpedia.usermanagement.service.response.UMServiceResponse;
 //import com.techpedia.usermanagement.dataobject.ProfileSearchCriteriaDO;
  //test git hub Working new changes
 //test git hub conflict here ali again commited on25th Feb....
+//added by charan
 @Service
 public class UserManagementRestServiceHelper {
 
