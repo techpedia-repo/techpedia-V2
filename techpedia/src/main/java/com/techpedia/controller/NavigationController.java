@@ -56,8 +56,8 @@ public class NavigationController {
 	 * @Resource(name = "config") private Properties prop;
 	 */
 
-	//String IP = "3.235.228.22";
-	String IP = "localhost";
+	String IP = "3.235.228.22";
+	/*String IP = "localhost";*/
 
 	/*
 	 * @PostConstruct public void initLoad() throws IOException { // IP =
